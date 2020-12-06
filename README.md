@@ -8,7 +8,6 @@ This model is then compared to an Azure AutoML run.
 ## Summary
 This dataset contains data related to marketing campaigns of a banking institutions. The data contains bank client attributes, campaign contact attributes and the socio-economic attributes. We seek to predict if a client to the bank will subscribe to the term deposit.
 
-**In 1-2 sentences, explain the solution: e.g. "The best performing model was a ..."**
 The best performing model was from the “VotingEnsemble” algorithm with an accuracy of 0.91733.
   
 ## Scikit-learn Pipeline
