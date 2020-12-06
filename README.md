@@ -11,7 +11,6 @@ This dataset contains data related to marketing campaigns of a banking instituti
 The best performing model was from the “VotingEnsemble” algorithm with an accuracy of 0.91733.
   
 ## Scikit-learn Pipeline
-**Explain the pipeline architecture, including data, hyperparameter tuning, and classification algorithm.**
 The pipeline architecture used in the prediction process was in the following major steps: creating a workspace & experiment, creating the compute cluster, parameter sampling, and early termination policy Hyperdrive configuration.
 
 * The workspace "quick-starts-ws-128450" was defined to provide a centralized space for managing several artifacts necessary for the ML workloads. This included the history of all training runs, logs, metrics output and a snapshot of the scripts used. The information stored in the workspace are critical for determining which training run generates the best model.
