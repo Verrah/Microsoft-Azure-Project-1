@@ -41,4 +41,6 @@ The Hyperdrive config and AutoML have near similar accuracy: 0.91394 and 0.91773
 Both Hyperdrive and AutoML achieve near similar results thus suitable for this marketing campaign problem and dataset. In terms of architecture, the Hyperdrive required specifying the algorithm that works best with the different specified hyperparameters. The Hyperdrive automated the testing of the specified hyperparameters. The AutoML, on the other hand, achieved competitive results with minimal effort thus not requiring specifications for the algorithm to be tested.
 
 ## Future work
-Both the Hyperdrive and AutoML tools are useful. It would be great to also compare their performance on other complex problems like Deep Neural Networks, Neural Architecture Search among others
+Both the Hyperdrive and AutoML tools are useful. It would be interesting to also compare performances based on various adjustments, for example:
+* working with different samplers, hyperparameters and stopping policies for the hyperdrive then comparing the results
+* evaluating the performance of the Hyperdrive and AutoML tools on other complex problems like Deep Neural Networks, Neural Archhitecture Search
