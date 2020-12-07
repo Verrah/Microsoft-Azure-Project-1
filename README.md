@@ -42,5 +42,5 @@ Both Hyperdrive and AutoML achieve near similar results thus suitable for this m
 
 ## Future work
 Both the Hyperdrive and AutoML tools are useful. It would be interesting to also compare performances based on various adjustments, for example:
-* working with different samplers, hyperparameters and stopping policies for the hyperdrive then comparing the results
-* evaluating the performance of the Hyperdrive and AutoML tools on other complex problems like Deep Neural Networks, Neural Archhitecture Search
+* working with different samplers, hyperparameters and stopping policies for the hyperdrive then comparing the results.
+* evaluating the performance of the Hyperdrive and AutoML tools on other complex problems like Deep Neural Networks and Neural Archhitecture Search.
